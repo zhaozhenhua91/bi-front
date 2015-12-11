@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 {
   "user" : {
     "name" : "Bossi",
     "email": "bossi@g.com"
   }
+=======
+{
+  "user" : {
+    "name" : "Bossi",
+    "email": "bossi@g.com"
+  }
+>>>>>>> f7670e88ad3798a75d6e9c8b8912206c9b113183
 }

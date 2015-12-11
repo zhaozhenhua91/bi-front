@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "notes":[
     {
@@ -16,4 +17,24 @@
       "date": 1410788731159
     }
   ]
+=======
+{
+  "notes":[
+    {
+      "content": "AngularJS - HTML enhanced for web apps!",
+      "color": "warning",
+      "date": 1410788931159
+    },
+    {
+      "content": "Meeting",
+      "color": "primary",
+      "date": 1410788631159
+    },
+    {
+      "content": "Keep watching",
+      "color": "success",
+      "date": 1410788731159
+    }
+  ]
+>>>>>>> f7670e88ad3798a75d6e9c8b8912206c9b113183
 }

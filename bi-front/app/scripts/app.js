@@ -18,4 +18,5 @@ angular
         'mgcrea.ngStrap',
         'ct.ui.router.extras',
         'highcharts-ng'
+        'ct.ui.router.extras'
     ]);

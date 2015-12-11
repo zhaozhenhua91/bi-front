@@ -140,6 +140,11 @@ angular.module('nevermore')
             abstract: true,
             url: '^/app/pmenu',
             templateUrl: 'tpl/app/pmenu.html',
+
+          .state('app.population', {
+            abstract: true,
+            url: '^/app/population',
+            templateUrl: 'tpl/app/population.html',
             controller: 'AppPopulationController',
             resolve: {
               controller: ['$ocLazyLoad', function($ocLazyLoad) {
@@ -149,6 +154,7 @@ angular.module('nevermore')
               }]
             }
           })
+
 
             .state('app.pmenu.populationstructure', {
             url: '^/app/pmenu/populationstructure',
@@ -170,6 +176,14 @@ angular.module('nevermore')
               controller: ['$ocLazyLoad', function($ocLazyLoad) {
                 return $ocLazyLoad.load([
                   'scripts/controllers/app/prelation.js',
+           .state('app.population.population-class', {
+            url: '^/app/population/teacher/class',
+            templateUrl: 'tpl/app/teacher-class.html',
+            controller: 'TeacherClassCtrl',
+            resolve: {
+              controller: ['$ocLazyLoad', function($ocLazyLoad) {
+                return $ocLazyLoad.load([
+                  'scripts/controllers/app/teacher-class.js',
                 ]);
               }]
             }

@@ -1,4 +1,5 @@
 'use strict';
+<<<<<<< HEAD
 /**
  * @ngdoc function
  * @name iocUiApp.controller:AboutCtrl
@@ -1530,3 +1531,11 @@ app.controller('WaterEnvironmentBICtrl', function($scope, $http, kpiDetailServic
         $scope.wasteWaterCurrentDateTime = waterQualityLastDate;
     });
 });
+=======
+
+app.controller('TeacherReservationCtrl', ['$scope','$stateParams', function($scope, $stateParams) {
+
+  $scope.title = $stateParams.title;
+
+}]);
+>>>>>>> f7670e88ad3798a75d6e9c8b8912206c9b113183
